@@ -1,4 +1,4 @@
-# TopFreeProxies
+# FreeProxiesScraper
 
 Fork from TopFreeProxies.
 
