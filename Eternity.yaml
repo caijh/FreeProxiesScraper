@@ -5,97 +5,97 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇯🇵 日本 031, server: japan01.0yuan.top, port: 443, type: trojan, password: c46df0e8-dc49-4e60-9b4b-0e9af22f28ef, sni: japan01.0yuan.top, skip-cert-verify: true}
   - {name: 🇯🇵 日本_0406007, server: v143a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jp143-d2xddxxj, headers: {Host: v143a.toddns.tk}}}
-  - {name: 🇯🇵 日本_0406066, server: 132.226.5.189, port: 26369, type: vmess, uuid: f5934f6a-6a07-4c7c-bb0f-3af328ea6897, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本_0406013, server: 138.2.14.220, port: 33421, type: vmess, uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国_0406016, server: 152.67.218.216, port: 17992, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ws-path}}
-  - {name: 🇰🇷 韩国_0406008, server: 140.238.18.160, port: 443, type: vmess, uuid: 4b9acd24-c0fa-4cbf-aba8-435db3f8f950, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇰🇷 韩国 004, server: sr.v2ssr.xyz, port: 53140, type: vmess, uuid: d4d60924-e920-4fb7-abd6-aa78ade5b3a9, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 JP日本(youtube阿伟科技) 2, server: o-japan.bigdogcloud.site, port: 443, type: vmess, uuid: 5ceae1ad-20f8-46d6-9c83-f88ecc3dbd73, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /goodgood, headers: {Host: o-japan.bigdogcloud.site}}}
+  - {name: 🇯🇵 日本 034, server: 43.207.120.229, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇯🇵 JP(AzadNet.t.me)_35, server: 150.230.96.103, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true}
+  - {name: 🇯🇵 日本_0406066, server: 132.226.5.189, port: 26369, type: vmess, uuid: f5934f6a-6a07-4c7c-bb0f-3af328ea6897, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 JP(AzadNet.t.me)_34, server: 150.230.217.213, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true}
+  - {name: 🇯🇵 日本_0406013, server: 138.2.14.220, port: 33421, type: vmess, uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 韩国_0406008, server: 140.238.18.160, port: 443, type: vmess, uuid: 4b9acd24-c0fa-4cbf-aba8-435db3f8f950, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇰🇷 韩国_0406016, server: 152.67.218.216, port: 17992, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ws-path}}
   - {name: 🇰🇷 韩国_0406010, server: 152.67.200.31, port: 36634, type: vmess, uuid: 52e9c6a3-a4a9-4866-eb9b-78ff1e0afcf4, alterId: 0, cipher: auto, tls: false}
-  - {name: HK_103.20.223.4_04062023b3fb-412trojan, server: cn-hk-package.hyperlinkvpn.xyz, port: 50180, type: trojan, password: ba5305d8-bf3e-4eee-8ebf-1c7b9a6dbed2, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国_0406017, server: 140.238.1.117, port: 80, type: vmess, uuid: c4a6952e-138a-3fe9-803b-8f2d2dd0254b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /4gmp}}
-  - {name: 🇸🇬 新加坡_0406233, server: sg2.ph5gvpn.online, port: 80, type: vmess, uuid: addbf473-e902-419d-b18d-74dcf1a4799a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ph5gvpn, headers: {Host: sg2.ph5gvpn.online}}}
-  - {name: 🇰🇷 _US_美国->🇰🇷_KR_韩国, server: hg02.wruox.cf, port: 2096, type: vmess, uuid: 69e92166-f2e7-4093-a98b-5113711fb0e7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /asdfas, headers: {Host: hg02.wruox.cf}}}
-  - {name: 🇸🇬 新加坡04, server: 54.255.246.240, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 -新加坡-n1679407005.edpmvga.cn, server: n1679407005.edpmvga.cn, port: 443, type: vmess, uuid: 31f005e0-79f7-48f2-82f1-e418650cef75, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1679407005.edpmvga.cn}}}
-  - {name: 🇸🇬 SG-18.141.175.224-002, server: 18.141.175.224, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 _TW_台湾, server: hinet1261.gfwisbest.xyz, port: 224, type: vmess, uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡_0406043, server: 139.162.63.139, port: 80, type: vmess, uuid: 869c698e-688e-4717-8f2f-3e40bf9275b4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /images}}
-  - {name: 🇯🇵 日本_0406011, server: 140.83.63.38, port: 24445, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 64, cipher: auto, tls: false}
-  - {name: SG_133, server: 139.162.5.19, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
-  - {name: SG_52.77.177.199_04062023b3fb-419trojan, server: sgp-3.fuckjdieng.uk, port: 50190, type: trojan, password: fa7868f2-a691-4871-890e-5ad4c0feb937, skip-cert-verify: false}
   - {name: 🇯🇵 _JP_日本 3, server: 131.186.41.192, port: 26297, type: vmess, uuid: b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡_0406026, server: 152.69.221.20, port: 80, type: vmess, uuid: bd1928f2-0818-4192-d14a-0961f05c0fdf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇰🇷 韩国_0406006, server: 144.24.72.125, port: 39867, type: vmess, uuid: 1c1d94dc-e79b-4a24-dc9f-7afa92539a80, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国 009, server: 210.87.202.198, port: 33803, type: vmess, uuid: 9ccde4cc-290a-4da6-9954-b53492f0bbec, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /kor1/getData, headers: {Host: kor1.verichains.co}}}
-  - {name: JP_67, server: 185.160.26.91, port: 1663, type: ss, cipher: chacha20-ietf-poly1305, password: Xs9ORT4j65b8HreZrg0p}
-  - {name: SG_127, server: 139.162.41.174, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
-  - {name: 🇸🇬 _SG_新加坡 2, server: 27.124.40.83, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇰🇷 _KR_韩国_2 2, server: 43.201.37.176, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 _TW_台湾, server: hinet1261.gfwisbest.xyz, port: 224, type: vmess, uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 _US_美国->🇯🇵_JP_日本, server: dj02.yumili.cf, port: 2096, type: vmess, uuid: c5cd4673-78de-43cd-b461-dd245c51f7b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /aaaa, headers: {Host: dj02.yumili.cf}}}
-  - {name: 🇰🇷 韩国 006, server: 43.201.148.126, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 韩国_0406006, server: 144.24.72.125, port: 39867, type: vmess, uuid: 1c1d94dc-e79b-4a24-dc9f-7afa92539a80, alterId: 0, cipher: auto, tls: false}
+  - {name: HK_103.20.223.4_04062023b3fb-412trojan, server: cn-hk-package.hyperlinkvpn.xyz, port: 50180, type: trojan, password: ba5305d8-bf3e-4eee-8ebf-1c7b9a6dbed2, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡 012, server: sgp-2.fuckjdieng.uk, port: 50162, type: trojan, password: 99993945-3df7-4a80-91dc-e3fbff84c39b, skip-cert-verify: true}
-  - {name: "🇰🇷 _[PF][家宽]OVH-韩国LG U", server: cf.noaries.de, port: 2086, type: vmess, uuid: 01d07cdf-aa5e-4889-8cbd-bd2b88179a85, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ovh.cloudflare.quest}}}
-  - {name: 🇸🇬 _SG_新加坡, server: 27.124.43.74, port: 53111, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇰🇷 KR(AzadNet.t.me)_7, server: 144.24.72.126, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true}
-  - {name: 🇯🇵 JP-52.69.182.30-020, server: 52.69.182.30, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 KR-43.201.33.242-034, server: 43.201.33.242, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 韩国01, server: 43.200.6.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 _HK_香港 2, server: hk10.microsoftjs.top, port: 443, type: trojan, password: 52ac1bbf-43cb-4cf1-8ea9-96ac068a043a, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国_0406017, server: 140.238.1.117, port: 80, type: vmess, uuid: c4a6952e-138a-3fe9-803b-8f2d2dd0254b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /4gmp}}
   - {name: 🇸🇬 SG-18.143.178.158-005, server: 18.143.178.158, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 HK香港(youtube阿伟科技), server: hk80.8b750e3e20aa.sanfen001.pics, port: 80, type: vmess, uuid: f74ae6eb-b5fd-4453-8a34-8e15918679a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: www.baidu.com}}}
+  - {name: 🇸🇬 新加坡05, server: 54.254.196.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 -新加坡-n1676188445.ydnhhgg.cn, server: n1676188445.ydnhhgg.cn, port: 443, type: vmess, uuid: 46fdbe0b-2a56-4da0-9aaa-9b427864ed3b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1676188445.ydnhhgg.cn}}}
+  - {name: 🇸🇬 _SG_新加坡 4, server: n1674862963.eaurlmj.cn, port: 443, type: vmess, uuid: 0c4def8d-2c32-4ca2-b203-70c674ac193d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1674862963.eaurlmj.cn}}}
+  - {name: 🇸🇬 _SG_新加坡_2_3@32, server: n1674862929.gofdwgy.cn, port: 443, type: vmess, uuid: 9052bc7a-ccae-47c8-aafb-f732e7320cfe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1674862929.gofdwgy.cn}}}
+  - {name: SG_18.140.55.16_04062023989e-1442vmess, server: n1679407005.edpmvga.cn, port: 443, type: vmess, uuid: 31f005e0-79f7-48f2-82f1-e418650cef75, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1679407005.edpmvga.cn}}}
   - {name: 🇸🇬 新加坡 011, server: n1674862946.zhidemy.cn, port: 443, type: vmess, uuid: badeb774-de36-4d24-b39f-e09e41e1a23a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1674862946.zhidemy.cn}}}
-  - {name: Pool_🇸🇬SG_126, server: 217.197.161.138, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: Pool_🇸🇬SG_125, server: 217.197.161.136, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇯🇵 _JP_日本 6 4, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: 🇺🇸 美国_0406030, server: 192.74.241.44, port: 31212, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0406032, server: 192.74.229.215, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0406061, server: 192.74.231.118, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0406242, server: 142.4.114.21, port: 34002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国【付费推荐：https//tt.vg/vip】272, server: 192.74.232.247, port: 51802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 US-35.90.18.88-028, server: 35.90.18.88, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国_0406071, server: 45.89.106.13, port: 443, type: vmess, uuid: b9cd8c99-dfef-46a2-c220-ddb13b837303, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ray}}
-  - {name: 🇺🇸 美国_0406247, server: 142.4.114.20, port: 34002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 US美国(youtube阿伟科技) 12, server: 198.41.212.150, port: 80, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.v2ray8.xyz}}}
-  - {name: 🇺🇸 美国_0406296, server: 156.225.67.252, port: 59926, type: vmess, uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0406141, server: 156.225.67.109, port: 45208, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 22, server: target.292228.xyz, port: 80, type: vmess, uuid: 12b1bed9-1534-41db-a530-a1dbf6c2a7c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /filetransfer, headers: {Host: us-east-1.292228.xyz}}}
-  - {name: 🇺🇸 美国 024, server: vus5.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus5.0bad.com}}}
-  - {name: 🇺🇸 美国_0406342, server: 45.89.106.128, port: 443, type: vmess, uuid: b9cd8c99-dfef-46a2-c220-ddb13b837303, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ray}}
-  - {name: 🇨🇦 加拿大 049, server: cf-dx-dns.sharecentre.online, port: 80, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 🇯🇵 日本_0406011, server: 140.83.63.38, port: 24445, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇰🇷 _US_美国->🇰🇷_KR_韩国, server: hg02.wruox.cf, port: 2096, type: vmess, uuid: 69e92166-f2e7-4093-a98b-5113711fb0e7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /asdfas, headers: {Host: hg02.wruox.cf}}}
+  - {name: SG_133, server: 139.162.5.19, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: JP_152.69.197.74_04062023b3fb-539vmess, server: 152.69.197.74, port: 12345, type: vmess, uuid: b8a6bf58-485a-4046-b386-b3661bf65eff, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /bb}}
+  - {name: 🇸🇬 新加坡_0406026, server: 152.69.221.20, port: 80, type: vmess, uuid: bd1928f2-0818-4192-d14a-0961f05c0fdf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇰🇷 韩国 005, server: kr-s-3.fuckjdieng.uk, port: 50328, type: trojan, password: 3195b7ff-6535-4ead-aaf0-428982a39b92, sni: kr-s-3.fuckjdieng.uk, skip-cert-verify: true}
+  - {name: SG_168.138.174.28_040520237e1c-403vmess, server: xjp2.wangjiaxin.xyz, port: 25932, type: vmess, uuid: 33a47ce6-5ea9-4d21-d3db-ce38421d2558, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /23423, headers: {Host: xjp2.wangjiaxin.xyz}}}
+  - {name: SG_127, server: 139.162.41.174, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: JP_67, server: 185.160.26.91, port: 1663, type: ss, cipher: chacha20-ietf-poly1305, password: Xs9ORT4j65b8HreZrg0p}
+  - {name: 🇸🇬 _SG_新加坡, server: 27.124.43.74, port: 53111, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇰🇷 韩国 011, server: 43.201.33.242, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 Singapore 01 TG@nodpai, server: 13.215.254.85, port: 80, type: vmess, uuid: 5d667691-c393-4de9-8962-9bea18bfca9e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /images, headers: {Host: shoutingtoutiao3.10010.com}}}
+  - {name: 🇸🇬 _SG_新加坡 2, server: 27.124.40.83, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇰🇷 韩国 012, server: 43.201.50.238, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 KR(AzadNet.t.me)_7, server: 144.24.72.126, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国 007, server: 43.201.60.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 _KR_韩国_3, server: 43.201.48.212, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 _KR_韩国_1 2, server: 43.200.244.234, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本 035, server: 52.69.182.30, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国_0406571, server: 66.235.200.1, port: 80, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.v2ray8.xyz}}}
+  - {name: 🇺🇸 美国_04063637, server: 142.0.139.55, port: 57072, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 -美国-142.4.110.115, server: 142.4.110.115, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0406132, server: 192.74.234.248, port: 50044, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0406131, server: 108.186.5.8, port: 59010, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0406037, server: 142.4.126.71, port: 31002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0406152, server: 45.86.11.147, port: 39182, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国【付费推荐：https//tt.vg/vi... 17, server: vi.mot20.ga, port: 8080, type: vmess, uuid: 342e932e-d990-4ad4-b38a-837a8ed3463c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vi.mot20.ga}}}
+  - {name: 🇺🇸 美国 051, server: new3.hucloud.tk, port: 443, type: vmess, uuid: 1de46722-e17a-df72-abce-57d6947efa72, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /fdksahjfasfvws, headers: {Host: new3.hucloud.tk}}}
+  - {name: US_youtube@资源分享师_56, server: 172.67.65.43, port: 2053, type: vmess, uuid: c0f67330-491f-4ebf-a87c-de08707bb4d9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /10029, headers: {Host: b.v2ray2333.tk}}}
+  - {name: 🇺🇸 美国_0406080, server: 38.63.17.175, port: 50702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0406045, server: 198.2.218.217, port: 51202, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国【付费推荐：https//tt.vg/vip】204, server: 142.4.118.249, port: 57402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0406241, server: 38.40.219.184, port: 50462, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0406243, server: 38.40.219.183, port: 50462, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_0406068, server: 45.58.180.143, port: 55211, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_SSRSUB_40, server: 198.2.208.82, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_120, server: 172.67.43.30, port: 2053, type: vmess, uuid: c0f67330-491f-4ebf-a87c-de08707bb4d9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /10029, headers: {Host: b.v2ray2333.tk}}}
-  - {name: 🇺🇸 美国 076, server: n1674862935.eaurlmj.cn, port: 443, type: vmess, uuid: a314da3c-e126-45bb-8a28-b28ab452d942, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1674862935.eaurlmj.cn}}}
-  - {name: 🇰🇷 _US_美国->🇰🇷_KR_韩国 2, server: hg02.wruox.cf, port: 2096, type: vmess, uuid: 69e92166-f2e7-4093-a98b-5113711fb0e7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /asdfas, headers: {Host: hg02.wruox.cf}}}
-  - {name: 🇺🇸 美国【付费推荐：https//tt.vg/vip】50, server: vin1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vin1.0bad.com}}}
+  - {name: 🇺🇸 美国 024, server: vus5.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus5.0bad.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国Cloud... 29, server: cf.noaries.de, port: 8080, type: vmess, uuid: 01d07cdf-aa5e-4889-8cbd-bd2b88179a85, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ft.cloudflare.quest}}}
+  - {name: 🇺🇸 美国_0406070, server: 64.32.20.34, port: 54042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_0406062, server: 45.58.178.12, port: 47785, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 _US_美国_@suyucom 2, server: ccdc2.6252369.xyz, port: 8443, type: vmess, uuid: f8949dfe-c501-453c-96b6-6786fb03d5f9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vxt99, headers: {Host: ccdc2.6252369.xyz}}}
-  - {name: 未知_0406256, server: 162.159.135.42, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
-  - {name: 未知_0406260, server: 198.41.203.7, port: 80, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.v2ray8.xyz}}}
-  - {name: 未知_04062004, server: ca.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 美国_0406063, server: 23.225.28.183, port: 49234, type: vmess, uuid: 2278efe4-ad0c-47ce-9480-068608368d76, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0406124, server: 23.224.15.72, port: 51552, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0406197, server: 23.224.14.142, port: 55332, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 未知_04062061, server: www.udemy.com, port: 443, type: vmess, uuid: e6442903-4753-4783-8916-ac47c8080e4f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg3b.obfs.xyz}}}
+  - {name: 🇫🇷 FR(AzadNet.t.me)_5, server: 51.91.11.29, port: 80, type: trojan, password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad, sni: telewebion.com, skip-cert-verify: true}
+  - {name: 白嫖-041, server: 129.146.133.157, port: 51009, type: vmess, uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇧🇷 巴西_0406001, server: 144.22.171.182, port: 17207, type: vmess, uuid: a0a098af-6a76-427f-df91-3c3dd6796e22, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 未知_0406630, server: 190.93.244.3, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
+  - {name: 未知_0406635, server: 141.101.114.31, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
+  - {name: 未知 63, server: 198.41.212.150, port: 80, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.v2ray8.xyz}}}
+  - {name: 未知_0406632, server: 190.93.245.3, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
+  - {name: 伯利兹【付费推荐：https//tt.vg/vip】207, server: 203.30.191.11, port: 80, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.v2ray8.xyz}}}
+  - {name: 未知_0406258, server: 141.101.115.100, port: 80, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.v2ray8.xyz}}}
   - {name: 未知_0406259, server: 141.101.115.120, port: 80, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.v2ray8.xyz}}}
-  - {name: IE(AzadNet.t.me), server: 3.249.129.98, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, sni: defapress.ir, skip-cert-verify: true}
-  - {name: -欧盟-fast_2ray_channel.fas..., server: fast_2ray_channel.fastv2ray.eu.org, port: 2053, type: vmess, uuid: 84d8a5f2-703b-4a20-ca24-2107a2902c75, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: reza.aliyari.cf}}}
-  - {name: 🇬🇧 GB(AzadNet.t.me)_4, server: 185.16.206.212, port: 443, type: trojan, password: shefelnak, skip-cert-verify: true}
-  - {name: 🇫🇷 法国 003, server: 188.165.170.83, port: 80, type: vmess, uuid: 860a862a-2798-4037-8513-b060e310e7fc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇩🇪 德国_0406008, server: 130.61.179.77, port: 20574, type: vmess, uuid: 87e3048a-5932-457a-84b9-deb51b5c91cd, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 德国_0406037, server: 162.55.165.209, port: 80, type: vmess, uuid: bb8595d3-25f9-4378-8500-64910472cd7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Mb5EFyHBJsWwPpDh5KFsLfQ/vmessws}}
-  - {name: 🇳🇱 荷兰_0406020, server: 194.61.120.50, port: 25744, type: vmess, uuid: 5549f360-f590-479a-ba47-252073c053bc, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇬🇧 英国【付费推荐：https//tt.vg/vip】274, server: 51.89.105.176, port: 58812, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇩🇪 德国_0406005, server: 130.61.111.167, port: 21872, type: vmess, uuid: 9a7a75d4-ab7e-4ba0-bbfa-a4acddc18084, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国_0406004, server: 51.195.35.151, port: 58812, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 未知_0406493, server: 198.41.208.200, port: 443, type: vmess, uuid: 49f4a096-4f25-4517-92e6-ff1fd9f8c4a1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: dallas.starsea.vip}}}
-  - {name: FR_51.91.11.29_04062023406d-877trojan, server: 51.91.11.29, port: 80, type: trojan, password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad, skip-cert-verify: true}
-  - {name: 未知_04062081, server: o-japan.bigdogcloud.site, port: 443, type: vmess, uuid: 618e5cc3-c7b8-4913-a0fe-90f12622fa26, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /goodgood, headers: {Host: o-japan.bigdogcloud.site}}}
+  - {name: v2cross.com_1069, server: 142.4.110.26, port: 44902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 伯利兹_0406053, server: 203.30.191.192, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
+  - {name: 未知_0406633, server: 190.93.246.3, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
+  - {name: 未知_0406260, server: 198.41.203.7, port: 80, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.v2ray8.xyz}}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 55, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: false}
-  - {name: ✅ سرورهای بیشتر در کانال   prrofile_purple@ ✅, server: koskeshmtn.recentff.ml, port: 443, type: vmess, uuid: eae7a785-ff74-4f3a-c089-c8b5bf339d77, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: kosenaneandroid.special-group-for-falcon.cf}}}
-  - {name: GB_146.19.230.241_04062023b3fb-372trojan, server: 146.19.230.241, port: 443, type: trojan, password: xxoo, skip-cert-verify: true}
-  - {name: 🇬🇧 英国_0406023, server: 51.89.156.206, port: 80, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 101, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false}
+  - {name: "| 6.38Mb", server: cn-hk-31.fnhffffe4.cc, port: 50230, type: trojan, password: 2cd902a8-9295-4f38-959c-1b1bef1a8405, skip-cert-verify: false}
+  - {name: 🇮🇳 印度 001, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true}
   - {name: "|34.07Mb", server: 138.2.44.211, port: 20081, type: vmess, uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973, alterId: 64, cipher: auto, tls: false}
-  - {name: "_[原生][商宽]VNPT", server: cf.noaries.de, port: 8080, type: vmess, uuid: 01d07cdf-aa5e-4889-8cbd-bd2b88179a85, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: vn.cloudflare.quest}}}
+  - {name: "|72.11Mb", server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: false}
+  - {name: "|81.28Mb", server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: false}
+  - {name: 未知_04062095, server: 5.walidfree5.workers.dev, port: 443, type: vmess, uuid: 0426AD3E-67E3-48DC-B6CC-8CE2FBE875EF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest/Amsterdam.kotick.site, headers: {Host: 5.walidfree5.workers.dev}}}
+  - {name: 04/02免费节点|TG频道@kxswa 10, server: sgp-3.fuckjdieng.uk, port: 50190, type: trojan, password: fa7868f2-a691-4871-890e-5ad4c0feb937, sni: sgp-3.fuckjdieng.uk, skip-cert-verify: false}
+  - {name: "|101.16Mb", server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -111,97 +111,97 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
+      - 🇯🇵 日本 031
       - 🇯🇵 日本_0406007
-      - 🇯🇵 日本_0406066
-      - 🇯🇵 日本_0406013
-      - 🇰🇷 韩国_0406016
-      - 🇰🇷 韩国_0406008
-      - 🇰🇷 韩国 004
-      - 🇯🇵 JP日本(youtube阿伟科技) 2
+      - 🇯🇵 日本 034
       - 🇯🇵 JP(AzadNet.t.me)_35
+      - 🇯🇵 日本_0406066
+      - 🇯🇵 JP(AzadNet.t.me)_34
+      - 🇯🇵 日本_0406013
+      - 🇰🇷 韩国_0406008
+      - 🇰🇷 韩国_0406016
       - 🇰🇷 韩国_0406010
-      - HK_103.20.223.4_04062023b3fb-412trojan
-      - 🇰🇷 韩国_0406017
-      - 🇸🇬 新加坡_0406233
-      - 🇰🇷 _US_美国->🇰🇷_KR_韩国
-      - 🇸🇬 新加坡04
-      - 🇸🇬 -新加坡-n1679407005.edpmvga.cn
-      - 🇸🇬 SG-18.141.175.224-002
-      - 🇨🇳 _TW_台湾
-      - 🇸🇬 新加坡_0406043
-      - 🇯🇵 日本_0406011
-      - SG_133
-      - SG_52.77.177.199_04062023b3fb-419trojan
       - 🇯🇵 _JP_日本 3
-      - 🇸🇬 新加坡_0406026
-      - 🇰🇷 韩国_0406006
-      - 🇰🇷 韩国 009
-      - JP_67
-      - SG_127
-      - 🇸🇬 _SG_新加坡 2
-      - 🇰🇷 _KR_韩国_2 2
+      - 🇨🇳 _TW_台湾
       - 🇯🇵 _US_美国->🇯🇵_JP_日本
-      - 🇰🇷 韩国 006
+      - 🇰🇷 韩国_0406006
+      - HK_103.20.223.4_04062023b3fb-412trojan
       - 🇸🇬 新加坡 012
-      - 🇰🇷 _[PF][家宽]OVH-韩国LG U
-      - 🇸🇬 _SG_新加坡
-      - 🇰🇷 KR(AzadNet.t.me)_7
-      - 🇯🇵 JP-52.69.182.30-020
-      - 🇰🇷 KR-43.201.33.242-034
-      - 🇰🇷 韩国01
+      - 🇭🇰 _HK_香港 2
+      - 🇰🇷 韩国_0406017
       - 🇸🇬 SG-18.143.178.158-005
-      - 🇭🇰 HK香港(youtube阿伟科技)
+      - 🇸🇬 新加坡05
+      - 🇸🇬 -新加坡-n1676188445.ydnhhgg.cn
+      - 🇸🇬 _SG_新加坡 4
+      - 🇸🇬 _SG_新加坡_2_3@32
+      - SG_18.140.55.16_04062023989e-1442vmess
       - 🇸🇬 新加坡 011
-      - Pool_🇸🇬SG_126
-      - Pool_🇸🇬SG_125
-      - 🇯🇵 _JP_日本 6 4
-      - 🇺🇸 美国_0406030
-      - 🇺🇸 美国_0406032
-      - 🇺🇸 美国_0406061
-      - 🇺🇸 美国_0406242
-      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】272
-      - 🇺🇸 US-35.90.18.88-028
-      - 🇺🇸 美国_0406071
-      - 🇺🇸 美国_0406247
-      - 🇺🇸 US美国(youtube阿伟科技) 12
-      - 🇺🇸 美国_0406296
-      - 🇺🇸 美国_0406141
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 22
-      - 🇺🇸 美国 024
-      - 🇺🇸 美国_0406342
-      - 🇨🇦 加拿大 049
+      - 🇯🇵 日本_0406011
+      - 🇰🇷 _US_美国->🇰🇷_KR_韩国
+      - SG_133
+      - JP_152.69.197.74_04062023b3fb-539vmess
+      - 🇸🇬 新加坡_0406026
+      - 🇰🇷 韩国 005
+      - SG_168.138.174.28_040520237e1c-403vmess
+      - SG_127
+      - JP_67
+      - 🇸🇬 _SG_新加坡
+      - 🇰🇷 韩国 011
+      - 🇸🇬 Singapore 01 TG@nodpai
+      - 🇸🇬 _SG_新加坡 2
+      - 🇰🇷 韩国 012
+      - 🇰🇷 KR(AzadNet.t.me)_7
+      - 🇰🇷 韩国 007
+      - 🇰🇷 _KR_韩国_3
+      - 🇰🇷 _KR_韩国_1 2
+      - 🇯🇵 日本 035
+      - 🇺🇸 美国_0406571
+      - 🇺🇸 美国_04063637
+      - 🇺🇸 -美国-142.4.110.115
+      - 🇺🇸 美国_0406132
+      - 🇺🇸 美国_0406131
+      - 🇺🇸 美国_0406037
+      - 🇺🇸 美国_0406152
+      - 🇺🇸 美国【付费推荐：https//tt.vg/vi... 17
+      - 🇺🇸 美国 051
+      - US_youtube@资源分享师_56
+      - 🇺🇸 美国_0406080
+      - 🇺🇸 美国_0406045
+      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】204
+      - 🇺🇸 美国_0406241
+      - 🇺🇸 美国_0406243
       - 🇺🇸 美国_0406068
-      - US_SSRSUB_40
-      - US_youtube@资源分享师_120
-      - 🇺🇸 美国 076
-      - 🇰🇷 _US_美国->🇰🇷_KR_韩国 2
-      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】50
+      - 🇺🇸 美国 024
+      - 🇺🇸 github.com/freefq - 美国Cloud... 29
+      - 🇺🇸 美国_0406070
       - 🇺🇸 美国_0406062
-      - 🇺🇸 _US_美国_@suyucom 2
-      - 未知_0406256
-      - 未知_0406260
-      - 未知_04062004
+      - 🇺🇸 美国_0406063
+      - 🇺🇸 美国_0406124
+      - 🇺🇸 美国_0406197
+      - 未知_04062061
+      - 🇫🇷 FR(AzadNet.t.me)_5
+      - 白嫖-041
+      - 🇧🇷 巴西_0406001
+      - 未知_0406630
+      - 未知_0406635
+      - 未知 63
+      - 未知_0406632
+      - 伯利兹【付费推荐：https//tt.vg/vip】207
+      - 未知_0406258
       - 未知_0406259
-      - IE(AzadNet.t.me)
-      - -欧盟-fast_2ray_channel.fas...
-      - 🇬🇧 GB(AzadNet.t.me)_4
-      - 🇫🇷 法国 003
-      - 🇩🇪 德国_0406008
-      - 🇩🇪 德国_0406037
-      - 🇳🇱 荷兰_0406020
-      - 🇬🇧 英国【付费推荐：https//tt.vg/vip】274
-      - 🇩🇪 德国_0406005
-      - 🇫🇷 法国_0406004
-      - 未知_0406493
-      - FR_51.91.11.29_04062023406d-877trojan
-      - 未知_04062081
+      - v2cross.com_1069
+      - 伯利兹_0406053
+      - 未知_0406633
+      - 未知_0406260
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 55
-      - ✅ سرورهای بیشتر در کانال   prrofile_purple@ ✅
-      - GB_146.19.230.241_04062023b3fb-372trojan
-      - 🇬🇧 英国_0406023
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 101
+      - "| 6.38Mb"
+      - 🇮🇳 印度 001
       - "|34.07Mb"
-      - _[原生][商宽]VNPT
+      - "|72.11Mb"
+      - "|81.28Mb"
+      - 未知_04062095
+      - 04/02免费节点|TG频道@kxswa 10
+      - "|101.16Mb"
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -252,336 +252,337 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇯🇵 日本 031
       - 🇯🇵 日本_0406007
-      - 🇯🇵 日本_0406066
-      - 🇯🇵 日本_0406013
-      - 🇰🇷 韩国_0406016
-      - 🇰🇷 韩国_0406008
-      - 🇰🇷 韩国 004
-      - 🇯🇵 JP日本(youtube阿伟科技) 2
+      - 🇯🇵 日本 034
       - 🇯🇵 JP(AzadNet.t.me)_35
+      - 🇯🇵 日本_0406066
+      - 🇯🇵 JP(AzadNet.t.me)_34
+      - 🇯🇵 日本_0406013
+      - 🇰🇷 韩国_0406008
+      - 🇰🇷 韩国_0406016
       - 🇰🇷 韩国_0406010
-      - HK_103.20.223.4_04062023b3fb-412trojan
-      - 🇰🇷 韩国_0406017
-      - 🇸🇬 新加坡_0406233
-      - 🇰🇷 _US_美国->🇰🇷_KR_韩国
-      - 🇸🇬 新加坡04
-      - 🇸🇬 -新加坡-n1679407005.edpmvga.cn
-      - 🇸🇬 SG-18.141.175.224-002
-      - 🇨🇳 _TW_台湾
-      - 🇸🇬 新加坡_0406043
-      - 🇯🇵 日本_0406011
-      - SG_133
-      - SG_52.77.177.199_04062023b3fb-419trojan
       - 🇯🇵 _JP_日本 3
-      - 🇸🇬 新加坡_0406026
-      - 🇰🇷 韩国_0406006
-      - 🇰🇷 韩国 009
-      - JP_67
-      - SG_127
-      - 🇸🇬 _SG_新加坡 2
-      - 🇰🇷 _KR_韩国_2 2
+      - 🇨🇳 _TW_台湾
       - 🇯🇵 _US_美国->🇯🇵_JP_日本
-      - 🇰🇷 韩国 006
+      - 🇰🇷 韩国_0406006
+      - HK_103.20.223.4_04062023b3fb-412trojan
       - 🇸🇬 新加坡 012
-      - 🇰🇷 _[PF][家宽]OVH-韩国LG U
-      - 🇸🇬 _SG_新加坡
-      - 🇰🇷 KR(AzadNet.t.me)_7
-      - 🇯🇵 JP-52.69.182.30-020
-      - 🇰🇷 KR-43.201.33.242-034
-      - 🇰🇷 韩国01
+      - 🇭🇰 _HK_香港 2
+      - 🇰🇷 韩国_0406017
       - 🇸🇬 SG-18.143.178.158-005
-      - 🇭🇰 HK香港(youtube阿伟科技)
+      - 🇸🇬 新加坡05
+      - 🇸🇬 -新加坡-n1676188445.ydnhhgg.cn
+      - 🇸🇬 _SG_新加坡 4
+      - 🇸🇬 _SG_新加坡_2_3@32
+      - SG_18.140.55.16_04062023989e-1442vmess
       - 🇸🇬 新加坡 011
-      - Pool_🇸🇬SG_126
-      - Pool_🇸🇬SG_125
-      - 🇯🇵 _JP_日本 6 4
-      - 🇺🇸 美国_0406030
-      - 🇺🇸 美国_0406032
-      - 🇺🇸 美国_0406061
-      - 🇺🇸 美国_0406242
-      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】272
-      - 🇺🇸 US-35.90.18.88-028
-      - 🇺🇸 美国_0406071
-      - 🇺🇸 美国_0406247
-      - 🇺🇸 US美国(youtube阿伟科技) 12
-      - 🇺🇸 美国_0406296
-      - 🇺🇸 美国_0406141
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 22
-      - 🇺🇸 美国 024
-      - 🇺🇸 美国_0406342
-      - 🇨🇦 加拿大 049
+      - 🇯🇵 日本_0406011
+      - 🇰🇷 _US_美国->🇰🇷_KR_韩国
+      - SG_133
+      - JP_152.69.197.74_04062023b3fb-539vmess
+      - 🇸🇬 新加坡_0406026
+      - 🇰🇷 韩国 005
+      - SG_168.138.174.28_040520237e1c-403vmess
+      - SG_127
+      - JP_67
+      - 🇸🇬 _SG_新加坡
+      - 🇰🇷 韩国 011
+      - 🇸🇬 Singapore 01 TG@nodpai
+      - 🇸🇬 _SG_新加坡 2
+      - 🇰🇷 韩国 012
+      - 🇰🇷 KR(AzadNet.t.me)_7
+      - 🇰🇷 韩国 007
+      - 🇰🇷 _KR_韩国_3
+      - 🇰🇷 _KR_韩国_1 2
+      - 🇯🇵 日本 035
+      - 🇺🇸 美国_0406571
+      - 🇺🇸 美国_04063637
+      - 🇺🇸 -美国-142.4.110.115
+      - 🇺🇸 美国_0406132
+      - 🇺🇸 美国_0406131
+      - 🇺🇸 美国_0406037
+      - 🇺🇸 美国_0406152
+      - 🇺🇸 美国【付费推荐：https//tt.vg/vi... 17
+      - 🇺🇸 美国 051
+      - US_youtube@资源分享师_56
+      - 🇺🇸 美国_0406080
+      - 🇺🇸 美国_0406045
+      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】204
+      - 🇺🇸 美国_0406241
+      - 🇺🇸 美国_0406243
       - 🇺🇸 美国_0406068
-      - US_SSRSUB_40
-      - US_youtube@资源分享师_120
-      - 🇺🇸 美国 076
-      - 🇰🇷 _US_美国->🇰🇷_KR_韩国 2
-      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】50
+      - 🇺🇸 美国 024
+      - 🇺🇸 github.com/freefq - 美国Cloud... 29
+      - 🇺🇸 美国_0406070
       - 🇺🇸 美国_0406062
-      - 🇺🇸 _US_美国_@suyucom 2
-      - 未知_0406256
-      - 未知_0406260
-      - 未知_04062004
+      - 🇺🇸 美国_0406063
+      - 🇺🇸 美国_0406124
+      - 🇺🇸 美国_0406197
+      - 未知_04062061
+      - 🇫🇷 FR(AzadNet.t.me)_5
+      - 白嫖-041
+      - 🇧🇷 巴西_0406001
+      - 未知_0406630
+      - 未知_0406635
+      - 未知 63
+      - 未知_0406632
+      - 伯利兹【付费推荐：https//tt.vg/vip】207
+      - 未知_0406258
       - 未知_0406259
-      - IE(AzadNet.t.me)
-      - -欧盟-fast_2ray_channel.fas...
-      - 🇬🇧 GB(AzadNet.t.me)_4
-      - 🇫🇷 法国 003
-      - 🇩🇪 德国_0406008
-      - 🇩🇪 德国_0406037
-      - 🇳🇱 荷兰_0406020
-      - 🇬🇧 英国【付费推荐：https//tt.vg/vip】274
-      - 🇩🇪 德国_0406005
-      - 🇫🇷 法国_0406004
-      - 未知_0406493
-      - FR_51.91.11.29_04062023406d-877trojan
-      - 未知_04062081
+      - v2cross.com_1069
+      - 伯利兹_0406053
+      - 未知_0406633
+      - 未知_0406260
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 55
-      - ✅ سرورهای بیشتر در کانال   prrofile_purple@ ✅
-      - GB_146.19.230.241_04062023b3fb-372trojan
-      - 🇬🇧 英国_0406023
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 101
+      - "| 6.38Mb"
+      - 🇮🇳 印度 001
       - "|34.07Mb"
-      - _[原生][商宽]VNPT
+      - "|72.11Mb"
+      - "|81.28Mb"
+      - 未知_04062095
+      - 04/02免费节点|TG频道@kxswa 10
+      - "|101.16Mb"
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇯🇵 日本 031
       - 🇯🇵 日本_0406007
-      - 🇯🇵 日本_0406066
-      - 🇯🇵 日本_0406013
-      - 🇰🇷 韩国_0406016
-      - 🇰🇷 韩国_0406008
-      - 🇰🇷 韩国 004
-      - 🇯🇵 JP日本(youtube阿伟科技) 2
+      - 🇯🇵 日本 034
       - 🇯🇵 JP(AzadNet.t.me)_35
+      - 🇯🇵 日本_0406066
+      - 🇯🇵 JP(AzadNet.t.me)_34
+      - 🇯🇵 日本_0406013
+      - 🇰🇷 韩国_0406008
+      - 🇰🇷 韩国_0406016
       - 🇰🇷 韩国_0406010
-      - HK_103.20.223.4_04062023b3fb-412trojan
-      - 🇰🇷 韩国_0406017
-      - 🇸🇬 新加坡_0406233
-      - 🇰🇷 _US_美国->🇰🇷_KR_韩国
-      - 🇸🇬 新加坡04
-      - 🇸🇬 -新加坡-n1679407005.edpmvga.cn
-      - 🇸🇬 SG-18.141.175.224-002
-      - 🇨🇳 _TW_台湾
-      - 🇸🇬 新加坡_0406043
-      - 🇯🇵 日本_0406011
-      - SG_133
-      - SG_52.77.177.199_04062023b3fb-419trojan
       - 🇯🇵 _JP_日本 3
-      - 🇸🇬 新加坡_0406026
-      - 🇰🇷 韩国_0406006
-      - 🇰🇷 韩国 009
-      - JP_67
-      - SG_127
-      - 🇸🇬 _SG_新加坡 2
-      - 🇰🇷 _KR_韩国_2 2
+      - 🇨🇳 _TW_台湾
       - 🇯🇵 _US_美国->🇯🇵_JP_日本
-      - 🇰🇷 韩国 006
+      - 🇰🇷 韩国_0406006
+      - HK_103.20.223.4_04062023b3fb-412trojan
       - 🇸🇬 新加坡 012
-      - 🇰🇷 _[PF][家宽]OVH-韩国LG U
-      - 🇸🇬 _SG_新加坡
-      - 🇰🇷 KR(AzadNet.t.me)_7
-      - 🇯🇵 JP-52.69.182.30-020
-      - 🇰🇷 KR-43.201.33.242-034
-      - 🇰🇷 韩国01
+      - 🇭🇰 _HK_香港 2
+      - 🇰🇷 韩国_0406017
       - 🇸🇬 SG-18.143.178.158-005
-      - 🇭🇰 HK香港(youtube阿伟科技)
+      - 🇸🇬 新加坡05
+      - 🇸🇬 -新加坡-n1676188445.ydnhhgg.cn
+      - 🇸🇬 _SG_新加坡 4
+      - 🇸🇬 _SG_新加坡_2_3@32
+      - SG_18.140.55.16_04062023989e-1442vmess
       - 🇸🇬 新加坡 011
-      - Pool_🇸🇬SG_126
-      - Pool_🇸🇬SG_125
-      - 🇯🇵 _JP_日本 6 4
-      - 🇺🇸 美国_0406030
-      - 🇺🇸 美国_0406032
-      - 🇺🇸 美国_0406061
-      - 🇺🇸 美国_0406242
-      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】272
-      - 🇺🇸 US-35.90.18.88-028
-      - 🇺🇸 美国_0406071
-      - 🇺🇸 美国_0406247
-      - 🇺🇸 US美国(youtube阿伟科技) 12
-      - 🇺🇸 美国_0406296
-      - 🇺🇸 美国_0406141
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 22
-      - 🇺🇸 美国 024
-      - 🇺🇸 美国_0406342
-      - 🇨🇦 加拿大 049
+      - 🇯🇵 日本_0406011
+      - 🇰🇷 _US_美国->🇰🇷_KR_韩国
+      - SG_133
+      - JP_152.69.197.74_04062023b3fb-539vmess
+      - 🇸🇬 新加坡_0406026
+      - 🇰🇷 韩国 005
+      - SG_168.138.174.28_040520237e1c-403vmess
+      - SG_127
+      - JP_67
+      - 🇸🇬 _SG_新加坡
+      - 🇰🇷 韩国 011
+      - 🇸🇬 Singapore 01 TG@nodpai
+      - 🇸🇬 _SG_新加坡 2
+      - 🇰🇷 韩国 012
+      - 🇰🇷 KR(AzadNet.t.me)_7
+      - 🇰🇷 韩国 007
+      - 🇰🇷 _KR_韩国_3
+      - 🇰🇷 _KR_韩国_1 2
+      - 🇯🇵 日本 035
+      - 🇺🇸 美国_0406571
+      - 🇺🇸 美国_04063637
+      - 🇺🇸 -美国-142.4.110.115
+      - 🇺🇸 美国_0406132
+      - 🇺🇸 美国_0406131
+      - 🇺🇸 美国_0406037
+      - 🇺🇸 美国_0406152
+      - 🇺🇸 美国【付费推荐：https//tt.vg/vi... 17
+      - 🇺🇸 美国 051
+      - US_youtube@资源分享师_56
+      - 🇺🇸 美国_0406080
+      - 🇺🇸 美国_0406045
+      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】204
+      - 🇺🇸 美国_0406241
+      - 🇺🇸 美国_0406243
       - 🇺🇸 美国_0406068
-      - US_SSRSUB_40
-      - US_youtube@资源分享师_120
-      - 🇺🇸 美国 076
-      - 🇰🇷 _US_美国->🇰🇷_KR_韩国 2
-      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】50
+      - 🇺🇸 美国 024
+      - 🇺🇸 github.com/freefq - 美国Cloud... 29
+      - 🇺🇸 美国_0406070
       - 🇺🇸 美国_0406062
-      - 🇺🇸 _US_美国_@suyucom 2
-      - 未知_0406256
-      - 未知_0406260
-      - 未知_04062004
+      - 🇺🇸 美国_0406063
+      - 🇺🇸 美国_0406124
+      - 🇺🇸 美国_0406197
+      - 未知_04062061
+      - 🇫🇷 FR(AzadNet.t.me)_5
+      - 白嫖-041
+      - 🇧🇷 巴西_0406001
+      - 未知_0406630
+      - 未知_0406635
+      - 未知 63
+      - 未知_0406632
+      - 伯利兹【付费推荐：https//tt.vg/vip】207
+      - 未知_0406258
       - 未知_0406259
-      - IE(AzadNet.t.me)
-      - -欧盟-fast_2ray_channel.fas...
-      - 🇬🇧 GB(AzadNet.t.me)_4
-      - 🇫🇷 法国 003
-      - 🇩🇪 德国_0406008
-      - 🇩🇪 德国_0406037
-      - 🇳🇱 荷兰_0406020
-      - 🇬🇧 英国【付费推荐：https//tt.vg/vip】274
-      - 🇩🇪 德国_0406005
-      - 🇫🇷 法国_0406004
-      - 未知_0406493
-      - FR_51.91.11.29_04062023406d-877trojan
-      - 未知_04062081
+      - v2cross.com_1069
+      - 伯利兹_0406053
+      - 未知_0406633
+      - 未知_0406260
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 55
-      - ✅ سرورهای بیشتر در کانال   prrofile_purple@ ✅
-      - GB_146.19.230.241_04062023b3fb-372trojan
-      - 🇬🇧 英国_0406023
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 101
+      - "| 6.38Mb"
+      - 🇮🇳 印度 001
       - "|34.07Mb"
-      - _[原生][商宽]VNPT
+      - "|72.11Mb"
+      - "|81.28Mb"
+      - 未知_04062095
+      - 04/02免费节点|TG频道@kxswa 10
+      - "|101.16Mb"
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 _US_美国->🇰🇷_KR_韩国
       - 🇯🇵 _US_美国->🇯🇵_JP_日本
-      - 🇺🇸 美国_0406030
-      - 🇺🇸 美国_0406032
-      - 🇺🇸 美国_0406061
-      - 🇺🇸 美国_0406242
-      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】272
-      - 🇺🇸 US-35.90.18.88-028
-      - 🇺🇸 美国_0406071
-      - 🇺🇸 美国_0406247
-      - 🇺🇸 US美国(youtube阿伟科技) 12
-      - 🇺🇸 美国_0406296
-      - 🇺🇸 美国_0406141
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 22
-      - 🇺🇸 美国 024
-      - 🇺🇸 美国_0406342
-      - 🇨🇦 加拿大 049
+      - 🇰🇷 _US_美国->🇰🇷_KR_韩国
+      - 🇺🇸 美国_0406571
+      - 🇺🇸 美国_04063637
+      - 🇺🇸 -美国-142.4.110.115
+      - 🇺🇸 美国_0406132
+      - 🇺🇸 美国_0406131
+      - 🇺🇸 美国_0406037
+      - 🇺🇸 美国_0406152
+      - 🇺🇸 美国【付费推荐：https//tt.vg/vi... 17
+      - 🇺🇸 美国 051
+      - US_youtube@资源分享师_56
+      - 🇺🇸 美国_0406080
+      - 🇺🇸 美国_0406045
+      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】204
+      - 🇺🇸 美国_0406241
+      - 🇺🇸 美国_0406243
       - 🇺🇸 美国_0406068
-      - US_SSRSUB_40
-      - US_youtube@资源分享师_120
-      - 🇺🇸 美国 076
-      - 🇰🇷 _US_美国->🇰🇷_KR_韩国 2
-      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】50
+      - 🇺🇸 美国 024
+      - 🇺🇸 github.com/freefq - 美国Cloud... 29
+      - 🇺🇸 美国_0406070
       - 🇺🇸 美国_0406062
-      - 🇺🇸 _US_美国_@suyucom 2
+      - 🇺🇸 美国_0406063
+      - 🇺🇸 美国_0406124
+      - 🇺🇸 美国_0406197
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇯🇵 日本 031
       - 🇯🇵 日本_0406007
-      - 🇯🇵 日本_0406066
-      - 🇯🇵 日本_0406013
-      - 🇰🇷 韩国_0406016
-      - 🇰🇷 韩国_0406008
-      - 🇰🇷 韩国 004
-      - 🇯🇵 JP日本(youtube阿伟科技) 2
+      - 🇯🇵 日本 034
       - 🇯🇵 JP(AzadNet.t.me)_35
+      - 🇯🇵 日本_0406066
+      - 🇯🇵 JP(AzadNet.t.me)_34
+      - 🇯🇵 日本_0406013
+      - 🇰🇷 韩国_0406008
+      - 🇰🇷 韩国_0406016
       - 🇰🇷 韩国_0406010
-      - HK_103.20.223.4_04062023b3fb-412trojan
-      - 🇰🇷 韩国_0406017
-      - 🇸🇬 新加坡_0406233
-      - 🇰🇷 _US_美国->🇰🇷_KR_韩国
-      - 🇸🇬 新加坡04
-      - 🇸🇬 -新加坡-n1679407005.edpmvga.cn
-      - 🇸🇬 SG-18.141.175.224-002
-      - 🇨🇳 _TW_台湾
-      - 🇸🇬 新加坡_0406043
-      - 🇯🇵 日本_0406011
-      - SG_133
-      - SG_52.77.177.199_04062023b3fb-419trojan
       - 🇯🇵 _JP_日本 3
-      - 🇸🇬 新加坡_0406026
-      - 🇰🇷 韩国_0406006
-      - 🇰🇷 韩国 009
-      - JP_67
-      - SG_127
-      - 🇸🇬 _SG_新加坡 2
-      - 🇰🇷 _KR_韩国_2 2
+      - 🇨🇳 _TW_台湾
       - 🇯🇵 _US_美国->🇯🇵_JP_日本
-      - 🇰🇷 韩国 006
+      - 🇰🇷 韩国_0406006
+      - HK_103.20.223.4_04062023b3fb-412trojan
       - 🇸🇬 新加坡 012
-      - 🇰🇷 _[PF][家宽]OVH-韩国LG U
-      - 🇸🇬 _SG_新加坡
-      - 🇰🇷 KR(AzadNet.t.me)_7
-      - 🇯🇵 JP-52.69.182.30-020
-      - 🇰🇷 KR-43.201.33.242-034
-      - 🇰🇷 韩国01
+      - 🇭🇰 _HK_香港 2
+      - 🇰🇷 韩国_0406017
       - 🇸🇬 SG-18.143.178.158-005
-      - 🇭🇰 HK香港(youtube阿伟科技)
+      - 🇸🇬 新加坡05
+      - 🇸🇬 -新加坡-n1676188445.ydnhhgg.cn
+      - 🇸🇬 _SG_新加坡 4
+      - 🇸🇬 _SG_新加坡_2_3@32
+      - SG_18.140.55.16_04062023989e-1442vmess
       - 🇸🇬 新加坡 011
-      - Pool_🇸🇬SG_126
-      - Pool_🇸🇬SG_125
-      - 🇯🇵 _JP_日本 6 4
-      - 🇰🇷 _US_美国->🇰🇷_KR_韩国 2
+      - 🇯🇵 日本_0406011
+      - 🇰🇷 _US_美国->🇰🇷_KR_韩国
+      - SG_133
+      - JP_152.69.197.74_04062023b3fb-539vmess
+      - 🇸🇬 新加坡_0406026
+      - 🇰🇷 韩国 005
+      - SG_168.138.174.28_040520237e1c-403vmess
+      - SG_127
+      - JP_67
+      - 🇸🇬 _SG_新加坡
+      - 🇰🇷 韩国 011
+      - 🇸🇬 Singapore 01 TG@nodpai
+      - 🇸🇬 _SG_新加坡 2
+      - 🇰🇷 韩国 012
+      - 🇰🇷 KR(AzadNet.t.me)_7
+      - 🇰🇷 韩国 007
+      - 🇰🇷 _KR_韩国_3
+      - 🇰🇷 _KR_韩国_1 2
+      - 🇯🇵 日本 035
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 未知_0406256
-      - 未知_0406260
-      - 未知_04062004
+      - 🇸🇬 Singapore 01 TG@nodpai
+      - 未知_04062061
+      - 🇫🇷 FR(AzadNet.t.me)_5
+      - 白嫖-041
+      - 🇧🇷 巴西_0406001
+      - 未知_0406630
+      - 未知_0406635
+      - 未知 63
+      - 未知_0406632
+      - 伯利兹【付费推荐：https//tt.vg/vip】207
+      - 未知_0406258
       - 未知_0406259
-      - IE(AzadNet.t.me)
-      - -欧盟-fast_2ray_channel.fas...
-      - 🇬🇧 GB(AzadNet.t.me)_4
-      - 🇫🇷 法国 003
-      - 🇩🇪 德国_0406008
-      - 🇩🇪 德国_0406037
-      - 🇳🇱 荷兰_0406020
-      - 🇬🇧 英国【付费推荐：https//tt.vg/vip】274
-      - 🇩🇪 德国_0406005
-      - 🇫🇷 法国_0406004
-      - 未知_0406493
-      - FR_51.91.11.29_04062023406d-877trojan
-      - 未知_04062081
+      - v2cross.com_1069
+      - 伯利兹_0406053
+      - 未知_0406633
+      - 未知_0406260
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 55
-      - ✅ سرورهای بیشتر در کانال   prrofile_purple@ ✅
-      - GB_146.19.230.241_04062023b3fb-372trojan
-      - 🇬🇧 英国_0406023
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 101
+      - "| 6.38Mb"
+      - 🇮🇳 印度 001
       - "|34.07Mb"
-      - _[原生][商宽]VNPT
+      - "|72.11Mb"
+      - "|81.28Mb"
+      - 未知_04062095
+      - 04/02免费节点|TG频道@kxswa 10
+      - "|101.16Mb"
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 _US_美国->🇰🇷_KR_韩国
       - 🇯🇵 _US_美国->🇯🇵_JP_日本
-      - 🇺🇸 美国_0406030
-      - 🇺🇸 美国_0406032
-      - 🇺🇸 美国_0406061
-      - 🇺🇸 美国_0406242
-      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】272
-      - 🇺🇸 US-35.90.18.88-028
-      - 🇺🇸 美国_0406071
-      - 🇺🇸 美国_0406247
-      - 🇺🇸 US美国(youtube阿伟科技) 12
-      - 🇺🇸 美国_0406296
-      - 🇺🇸 美国_0406141
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 22
-      - 🇺🇸 美国 024
-      - 🇺🇸 美国_0406342
+      - 🇰🇷 _US_美国->🇰🇷_KR_韩国
+      - 🇺🇸 美国_0406571
+      - 🇺🇸 美国_04063637
+      - 🇺🇸 -美国-142.4.110.115
+      - 🇺🇸 美国_0406132
+      - 🇺🇸 美国_0406131
+      - 🇺🇸 美国_0406037
+      - 🇺🇸 美国_0406152
+      - 🇺🇸 美国【付费推荐：https//tt.vg/vi... 17
+      - 🇺🇸 美国 051
+      - US_youtube@资源分享师_56
+      - 🇺🇸 美国_0406080
+      - 🇺🇸 美国_0406045
+      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】204
+      - 🇺🇸 美国_0406241
+      - 🇺🇸 美国_0406243
       - 🇺🇸 美国_0406068
-      - US_SSRSUB_40
-      - US_youtube@资源分享师_120
-      - 🇺🇸 美国 076
-      - 🇰🇷 _US_美国->🇰🇷_KR_韩国 2
-      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】50
+      - 🇺🇸 美国 024
+      - 🇺🇸 github.com/freefq - 美国Cloud... 29
+      - 🇺🇸 美国_0406070
       - 🇺🇸 美国_0406062
-      - 🇺🇸 _US_美国_@suyucom 2
+      - 🇺🇸 美国_0406063
+      - 🇺🇸 美国_0406124
+      - 🇺🇸 美国_0406197
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
@@ -589,46 +590,47 @@ proxy-groups:
     tolerance: 100
     proxies:
       - HK_103.20.223.4_04062023b3fb-412trojan
-      - 🇭🇰 HK香港(youtube阿伟科技)
+      - 🇭🇰 _HK_香港 2
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 新加坡_0406233
-      - 🇸🇬 新加坡04
-      - 🇸🇬 -新加坡-n1679407005.edpmvga.cn
-      - 🇸🇬 SG-18.141.175.224-002
-      - 🇸🇬 新加坡_0406043
-      - SG_133
-      - SG_52.77.177.199_04062023b3fb-419trojan
-      - 🇸🇬 新加坡_0406026
-      - SG_127
-      - 🇸🇬 _SG_新加坡 2
       - 🇸🇬 新加坡 012
-      - 🇸🇬 _SG_新加坡
       - 🇸🇬 SG-18.143.178.158-005
+      - 🇸🇬 新加坡05
+      - 🇸🇬 -新加坡-n1676188445.ydnhhgg.cn
+      - 🇸🇬 _SG_新加坡 4
+      - 🇸🇬 _SG_新加坡_2_3@32
+      - SG_18.140.55.16_04062023989e-1442vmess
       - 🇸🇬 新加坡 011
-      - Pool_🇸🇬SG_126
-      - Pool_🇸🇬SG_125
+      - SG_133
+      - 🇸🇬 新加坡_0406026
+      - SG_168.138.174.28_040520237e1c-403vmess
+      - SG_127
+      - 🇸🇬 _SG_新加坡
+      - 🇸🇬 Singapore 01 TG@nodpai
+      - 🇸🇬 _SG_新加坡 2
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇯🇵 日本 031
       - 🇯🇵 日本_0406007
-      - 🇯🇵 日本_0406066
-      - 🇯🇵 日本_0406013
-      - 🇯🇵 JP日本(youtube阿伟科技) 2
+      - 🇯🇵 日本 034
       - 🇯🇵 JP(AzadNet.t.me)_35
-      - 🇯🇵 日本_0406011
+      - 🇯🇵 日本_0406066
+      - 🇯🇵 JP(AzadNet.t.me)_34
+      - 🇯🇵 日本_0406013
       - 🇯🇵 _JP_日本 3
-      - JP_67
       - 🇯🇵 _US_美国->🇯🇵_JP_日本
-      - 🇯🇵 JP-52.69.182.30-020
-      - 🇯🇵 _JP_日本 6 4
+      - 🇯🇵 日本_0406011
+      - JP_152.69.197.74_04062023b3fb-539vmess
+      - JP_67
+      - 🇯🇵 日本 035
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
@@ -642,21 +644,19 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 韩国_0406016
       - 🇰🇷 韩国_0406008
-      - 🇰🇷 韩国 004
+      - 🇰🇷 韩国_0406016
       - 🇰🇷 韩国_0406010
+      - 🇰🇷 韩国_0406006
       - 🇰🇷 韩国_0406017
       - 🇰🇷 _US_美国->🇰🇷_KR_韩国
-      - 🇰🇷 韩国_0406006
-      - 🇰🇷 韩国 009
-      - 🇰🇷 _KR_韩国_2 2
-      - 🇰🇷 韩国 006
-      - 🇰🇷 _[PF][家宽]OVH-韩国LG U
+      - 🇰🇷 韩国 005
+      - 🇰🇷 韩国 011
+      - 🇰🇷 韩国 012
       - 🇰🇷 KR(AzadNet.t.me)_7
-      - 🇰🇷 KR-43.201.33.242-034
-      - 🇰🇷 韩国01
-      - 🇰🇷 _US_美国->🇰🇷_KR_韩国 2
+      - 🇰🇷 韩国 007
+      - 🇰🇷 _KR_韩国_3
+      - 🇰🇷 _KR_韩国_1 2
 rules:
  - DOMAIN,asusrouter.com,DIRECT
  - DOMAIN,instant.arubanetworks.com,DIRECT
